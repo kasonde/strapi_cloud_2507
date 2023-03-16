@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_block_video_blocks",
+  "info": {
+    "displayName": "VideoBlock",
+    "icon": "video",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "autoplay": {
+      "type": "boolean"
+    },
+    "video": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "videos"
+      ]
+    },
+    "externalVideo": {
+      "type": "customField",
+      "customField": "plugin::video-field.video"
+    }
+  }
+}
