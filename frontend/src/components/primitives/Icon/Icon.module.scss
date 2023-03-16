@@ -1,0 +1,7 @@
+.wrapper {
+    @apply flex items-center justify-center;
+
+    svg {
+        @apply w-full max-h-full;
+    }
+}
